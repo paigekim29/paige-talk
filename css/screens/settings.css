@@ -1,0 +1,12 @@
+.settings__setting {
+  padding: 30px 0px;
+  border-bottom: 1px solid var(--pink);
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings__setting-column i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--pink);
+}
