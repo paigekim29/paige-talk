@@ -11,11 +11,12 @@
   margin: 5px;
 }
 
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__friends {
   margin-top: 20px;
-  border-top: 1px solid var(--pink);
   padding: 20px 0px;
   color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid var(--pink);
 }
 
 .friends-screen__header {
@@ -24,7 +25,7 @@
   justify-content: space-between;
 }
 
-@keyframes hideSplashScreen {
+/*@keyframes hideSplashScreen {
   from {
     opacity: 100;
   }
@@ -46,4 +47,9 @@
   font-size: 132px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 3s;
+}*/
+
+.friends-screen__friends .user-component {
+  display: flex;
+  flex-direction: column;
 }

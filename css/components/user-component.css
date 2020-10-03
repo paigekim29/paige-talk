@@ -6,6 +6,7 @@
 .user-component__column {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .user-component__avatar {
@@ -39,7 +40,7 @@
   margin-top: 10px;
 }
 
-.user-component__column:last-child {
+.chats .user-component__column:last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
